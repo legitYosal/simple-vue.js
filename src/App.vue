@@ -3,7 +3,7 @@
     <div v-if="show_msg">{{msg}}</div>
 
     <div v-if="show_msg">true</div>
-    <div v-else-if="!sho_msg">false</div>
+    <div v-else-if="!show_msg">false</div>
     <div v-else>none</div>
 
     <div v-for="(item, index) in msg_list" :key="index">
